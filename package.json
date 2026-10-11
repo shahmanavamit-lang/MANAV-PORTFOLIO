@@ -1,0 +1,17 @@
+{
+  "name": "manav-portfolio",
+  "version": "1.0.0",
+  "description": "Manav Shah \u2014 programming, algorithms, AI and data science portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check public/script.js && node --check server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
